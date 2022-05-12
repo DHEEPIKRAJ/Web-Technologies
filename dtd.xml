@@ -1,0 +1,17 @@
+﻿<!DOCTYPE note SYSTEM "dtd.dtd"
+[<!ENTITY snist "Sreenidhi Institute of Science and Technology">]>
+<note>
+<to type="office">Hiran</to>
+<to type="admin">Kumar</to>
+<to type="office">Sanjay</to>
+<from>&amp;Jani</from>
+<heading>505</heading>
+<body>HI, Don't forget me this weekend  &snist;</body>
+</note>
+
+
+<!-- ELEMENT-->
+<!-- #PCDATA-->
+<!-- MIXED-->
+<!-- ANY-->
+<!-- ELEMENT-->

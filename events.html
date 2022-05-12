@@ -1,0 +1,26 @@
+<script type="text/javascript">
+//1. js events
+//2. js exceptions
+function displayDate()
+{
+	alert("Today is Saturday");
+}
+function myName()
+{
+	var x=document.getElementById("fname");
+	x.value =x.value.toUpperCase();
+}
+function showAlert()
+{
+	alert("Today is Saturday");
+}
+function changeColor()
+{
+	document.getElementById("fname").style.background="aqua";
+}
+</script>
+
+Enter your Name:<input type="text" id="fname" onblur="myName()" onfocus="changeColor()">
+<p onmouseover="showAlert()" id="demo">Some text</p>
+<button onclick="displayDate()">The time is?</button>
+

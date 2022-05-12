@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" 
+                    href="stud_xsl.xsl" ?>
+<department>
+	<student>
+		<name>Hari</name>
+		<roll>13311A0543</roll>
+		<cgpa>8.4</cgpa>
+	</student>
+	<student>
+		<name>Harini</name>
+		<roll>13311A05A3</roll>
+		<cgpa>9.4</cgpa>
+	</student>
+	<student>
+		<name>Clove</name>
+		<roll>13311A0595</roll>
+		<cgpa>8.7</cgpa>
+	</student>
+</department>

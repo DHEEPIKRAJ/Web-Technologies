@@ -1,0 +1,20 @@
+﻿<?xml version = "1.0" encoding = "UTF-8" standalone = "no" ?>
+<!DOCTYPE patient[
+<!ELEMENT patient (name+)>
+<!ELEMENT name (fname,lname,height?)>
+<!ELEMENT fname (#PCDATA)>
+<!ELEMENT lname (#PCDATA)>
+<!ELEMENT height (#PCDATA)>
+<!ATTLIST name age CDATA "0">
+<!ENTITY snist "Sreenidhi">
+]>
+<patient>
+   <name age="35"> 
+	<fname>&amp;Ravi</fname>
+	<lname>Kishan</lname>
+   </name>
+   <name age="45">
+	<fname>Mani</fname>
+	<lname>&snist;</lname>
+  </name>
+</patient>

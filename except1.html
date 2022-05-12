@@ -1,0 +1,11 @@
+<p id="demo"></p>
+<script type="text/javascript">
+try{ 
+	//aalert("Welcome Exception!!"); 
+	delete name;
+	document.write(name);
+	}
+catch(err){
+	document.getElementById("demo").innerHTML=err.message;
+}	
+</script>

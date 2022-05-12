@@ -1,0 +1,24 @@
+<html>
+   <head>   
+      <script type = "text/javascript">
+         var vtext=/^[A-Za-z]+$/;
+         function display()
+         {
+            name=document.getElementById("name").value;
+            if(!vtext.test(name))
+               { alert("Enter correct name")}
+            else
+               {document.write("Correct Input")}
+         }
+      </script>     
+   </head>
+   
+   <body>
+
+   <form name="myForm">
+      <input type="textbox" id="name" value="Enter a number">
+      <input type="button" onclick="display()" value="Submit">
+   </form>
+     
+   </body> 
+</html>
